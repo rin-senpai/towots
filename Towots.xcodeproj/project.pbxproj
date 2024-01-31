@@ -7,22 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3EB1E72B6520E600ADE88C /* FeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EB1E62B6520E600ADE88C /* FeedListView.swift */; };
+		DB3EB1F42B65374000ADE88C /* MultipartKitTootSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DB3EB1F32B65374000ADE88C /* MultipartKitTootSDK */; };
+		DB3EB1F62B65374000ADE88C /* TootSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DB3EB1F52B65374000ADE88C /* TootSDK */; };
+		DB3EB1F82B66113E00ADE88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EB1F72B66113E00ADE88C /* ContentView.swift */; };
+		DBB5C3C92B67595A009B3DD3 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = DBB5C3C82B67595A009B3DD3 /* SwiftUIIntrospect */; };
+		DBE2C8B62B6688450047F841 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = DBE2C8B52B6688450047F841 /* Nuke */; };
+		DBE2C8B82B6688450047F841 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = DBE2C8B72B6688450047F841 /* NukeExtensions */; };
+		DBE2C8BA2B6688450047F841 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = DBE2C8B92B6688450047F841 /* NukeUI */; };
+		DBE2C8BC2B6688450047F841 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = DBE2C8BB2B6688450047F841 /* NukeVideo */; };
+		DBE2C8BE2B668E190047F841 /* BlurHashDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2C8BD2B668E190047F841 /* BlurHashDecode.swift */; };
 		DBF853502B64ABC3009E6D51 /* TowotsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8534F2B64ABC3009E6D51 /* TowotsApp.swift */; };
-		DBF853522B64ABC3009E6D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853512B64ABC3009E6D51 /* ContentView.swift */; };
-		DBF853542B64ABC3009E6D51 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853532B64ABC3009E6D51 /* Item.swift */; };
 		DBF853562B64ABC4009E6D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF853552B64ABC4009E6D51 /* Assets.xcassets */; };
 		DBF853592B64ABC4009E6D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF853582B64ABC4009E6D51 /* Preview Assets.xcassets */; };
+		DBF853632B64AC2F009E6D51 /* MultipartKitTootSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DBF853622B64AC2F009E6D51 /* MultipartKitTootSDK */; };
+		DBF853652B64AC2F009E6D51 /* TootSDK in Frameworks */ = {isa = PBXBuildFile; productRef = DBF853642B64AC2F009E6D51 /* TootSDK */; };
+		DBF853672B64B2FB009E6D51 /* TootManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853662B64B2FB009E6D51 /* TootManager.swift */; };
+		DBF8536A2B64BE29009E6D51 /* AuthorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853692B64BE29009E6D51 /* AuthorizeView.swift */; };
+		DBF8536D2B64C130009E6D51 /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = DBF8536C2B64C130009E6D51 /* SwiftKeychainWrapper */; };
+		DBF853702B64C252009E6D51 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8536F2B64C252009E6D51 /* FeedView.swift */; };
+		DBF853722B64C281009E6D51 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853712B64C281009E6D51 /* FeedViewModel.swift */; };
+		DBF853762B64C306009E6D51 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF853752B64C306009E6D51 /* PostView.swift */; };
+		DBF8537A2B64C365009E6D51 /* EmojiText in Frameworks */ = {isa = PBXBuildFile; productRef = DBF853792B64C365009E6D51 /* EmojiText */; };
+		DBF8537F2B64C3EC009E6D51 /* Array+RemoteEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8537E2B64C3EC009E6D51 /* Array+RemoteEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB3EB1E62B6520E600ADE88C /* FeedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListView.swift; sourceTree = "<group>"; };
+		DB3EB1F72B66113E00ADE88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBE2C8BD2B668E190047F841 /* BlurHashDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurHashDecode.swift; sourceTree = "<group>"; };
 		DBF8534C2B64ABC3009E6D51 /* Towots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Towots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF8534F2B64ABC3009E6D51 /* TowotsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowotsApp.swift; sourceTree = "<group>"; };
-		DBF853512B64ABC3009E6D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DBF853532B64ABC3009E6D51 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DBF853552B64ABC4009E6D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBF853582B64ABC4009E6D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBF8535A2B64ABC4009E6D51 /* Towots.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Towots.entitlements; sourceTree = "<group>"; };
 		DBF8535B2B64ABC4009E6D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF853662B64B2FB009E6D51 /* TootManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootManager.swift; sourceTree = "<group>"; };
+		DBF853692B64BE29009E6D51 /* AuthorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizeView.swift; sourceTree = "<group>"; };
+		DBF8536F2B64C252009E6D51 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		DBF853712B64C281009E6D51 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		DBF853752B64C306009E6D51 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		DBF8537E2B64C3EC009E6D51 /* Array+RemoteEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RemoteEmoji.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +55,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF853632B64AC2F009E6D51 /* MultipartKitTootSDK in Frameworks */,
+				DBE2C8B82B6688450047F841 /* NukeExtensions in Frameworks */,
+				DBF853652B64AC2F009E6D51 /* TootSDK in Frameworks */,
+				DBE2C8B62B6688450047F841 /* Nuke in Frameworks */,
+				DB3EB1F42B65374000ADE88C /* MultipartKitTootSDK in Frameworks */,
+				DBB5C3C92B67595A009B3DD3 /* SwiftUIIntrospect in Frameworks */,
+				DBF8537A2B64C365009E6D51 /* EmojiText in Frameworks */,
+				DBE2C8BA2B6688450047F841 /* NukeUI in Frameworks */,
+				DBE2C8BC2B6688450047F841 /* NukeVideo in Frameworks */,
+				DBF8536D2B64C130009E6D51 /* SwiftKeychainWrapper in Frameworks */,
+				DB3EB1F62B65374000ADE88C /* TootSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +91,10 @@
 		DBF8534E2B64ABC3009E6D51 /* Towots */ = {
 			isa = PBXGroup;
 			children = (
+				DBF853772B64C325009E6D51 /* Extensions */,
+				DBF853682B64BE09009E6D51 /* Views */,
 				DBF8534F2B64ABC3009E6D51 /* TowotsApp.swift */,
-				DBF853512B64ABC3009E6D51 /* ContentView.swift */,
-				DBF853532B64ABC3009E6D51 /* Item.swift */,
+				DBF853662B64B2FB009E6D51 /* TootManager.swift */,
 				DBF853552B64ABC4009E6D51 /* Assets.xcassets */,
 				DBF8535A2B64ABC4009E6D51 /* Towots.entitlements */,
 				DBF8535B2B64ABC4009E6D51 /* Info.plist */,
@@ -72,6 +109,36 @@
 				DBF853582B64ABC4009E6D51 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBF853682B64BE09009E6D51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8536E2B64C240009E6D51 /* Feed */,
+				DBF853692B64BE29009E6D51 /* AuthorizeView.swift */,
+				DBF853752B64C306009E6D51 /* PostView.swift */,
+				DB3EB1F72B66113E00ADE88C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBF8536E2B64C240009E6D51 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8536F2B64C252009E6D51 /* FeedView.swift */,
+				DBF853712B64C281009E6D51 /* FeedViewModel.swift */,
+				DB3EB1E62B6520E600ADE88C /* FeedListView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		DBF853772B64C325009E6D51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8537E2B64C3EC009E6D51 /* Array+RemoteEmoji.swift */,
+				DBE2C8BD2B668E190047F841 /* BlurHashDecode.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +157,19 @@
 			dependencies = (
 			);
 			name = Towots;
+			packageProductDependencies = (
+				DBF853622B64AC2F009E6D51 /* MultipartKitTootSDK */,
+				DBF853642B64AC2F009E6D51 /* TootSDK */,
+				DBF8536C2B64C130009E6D51 /* SwiftKeychainWrapper */,
+				DBF853792B64C365009E6D51 /* EmojiText */,
+				DB3EB1F32B65374000ADE88C /* MultipartKitTootSDK */,
+				DB3EB1F52B65374000ADE88C /* TootSDK */,
+				DBE2C8B52B6688450047F841 /* Nuke */,
+				DBE2C8B72B6688450047F841 /* NukeExtensions */,
+				DBE2C8B92B6688450047F841 /* NukeUI */,
+				DBE2C8BB2B6688450047F841 /* NukeVideo */,
+				DBB5C3C82B67595A009B3DD3 /* SwiftUIIntrospect */,
+			);
 			productName = Towots;
 			productReference = DBF8534C2B64ABC3009E6D51 /* Towots.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +198,13 @@
 				Base,
 			);
 			mainGroup = DBF853432B64ABC3009E6D51;
+			packageReferences = (
+				DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */,
+				DBF8536B2B64C130009E6D51 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				DBF853782B64C365009E6D51 /* XCRemoteSwiftPackageReference "EmojiText" */,
+				DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */,
+				DBB5C3C72B67595A009B3DD3 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = DBF8534D2B64ABC3009E6D51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,8 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF853522B64ABC3009E6D51 /* ContentView.swift in Sources */,
-				DBF853542B64ABC3009E6D51 /* Item.swift in Sources */,
+				DB3EB1E72B6520E600ADE88C /* FeedListView.swift in Sources */,
+				DBF853762B64C306009E6D51 /* PostView.swift in Sources */,
+				DBF853722B64C281009E6D51 /* FeedViewModel.swift in Sources */,
+				DBF853702B64C252009E6D51 /* FeedView.swift in Sources */,
+				DBF8536A2B64BE29009E6D51 /* AuthorizeView.swift in Sources */,
+				DB3EB1F82B66113E00ADE88C /* ContentView.swift in Sources */,
+				DBF8537F2B64C3EC009E6D51 /* Array+RemoteEmoji.swift in Sources */,
+				DBF853672B64B2FB009E6D51 /* TootManager.swift in Sources */,
+				DBE2C8BE2B668E190047F841 /* BlurHashDecode.swift in Sources */,
 				DBF853502B64ABC3009E6D51 /* TowotsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +379,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Towots/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +411,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Towots/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +452,107 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBB5C3C72B67595A009B3DD3 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TootSDK/TootSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		DBF8536B2B64C130009E6D51 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		DBF853782B64C365009E6D51 /* XCRemoteSwiftPackageReference "EmojiText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/divadretlaw/EmojiText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB3EB1F32B65374000ADE88C /* MultipartKitTootSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */;
+			productName = MultipartKitTootSDK;
+		};
+		DB3EB1F52B65374000ADE88C /* TootSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */;
+			productName = TootSDK;
+		};
+		DBB5C3C82B67595A009B3DD3 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBB5C3C72B67595A009B3DD3 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		DBE2C8B52B6688450047F841 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		DBE2C8B72B6688450047F841 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		DBE2C8B92B6688450047F841 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		DBE2C8BB2B6688450047F841 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBE2C8B42B6688450047F841 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		DBF853622B64AC2F009E6D51 /* MultipartKitTootSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */;
+			productName = MultipartKitTootSDK;
+		};
+		DBF853642B64AC2F009E6D51 /* TootSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF853612B64AC2F009E6D51 /* XCRemoteSwiftPackageReference "TootSDK" */;
+			productName = TootSDK;
+		};
+		DBF8536C2B64C130009E6D51 /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF8536B2B64C130009E6D51 /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		DBF853792B64C365009E6D51 /* EmojiText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBF853782B64C365009E6D51 /* XCRemoteSwiftPackageReference "EmojiText" */;
+			productName = EmojiText;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DBF853442B64ABC3009E6D51 /* Project object */;
 }

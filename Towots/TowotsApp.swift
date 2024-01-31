@@ -6,27 +6,42 @@
 //
 
 import SwiftUI
-import SwiftData
+import TootSDK
 
 @main
 struct TowotsApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    @StateObject var tootManager: TootManager = TootManager()
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+    @State var isActive: Bool = false
+    @State var authIsPresented: Bool = false
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                if isActive {
+                    if authIsPresented {
+                        AuthorizeView()
+                    } else {
+                        ContentView()
+                    }
+                } else {
+                    Text("splash splash")
+                }
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    withAnimation {
+                        isActive = true
+                        authIsPresented = !tootManager.authenticated
+                    }
+                }
+            }
+            .onChange(of: tootManager.authenticated) {
+                withAnimation {
+                    authIsPresented = !tootManager.authenticated
+                }
+            }
+            .environmentObject(tootManager)
         }
-        .modelContainer(sharedModelContainer)
     }
 }
